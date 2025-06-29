@@ -1,3 +1,3 @@
 leer??
 
-Quién nhace eso ahora?
+Quién hace eso ahora?
