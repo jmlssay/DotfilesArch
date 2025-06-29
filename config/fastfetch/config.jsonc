@@ -1,0 +1,147 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "$HOME/.config/fastfetch/Samurai.png",
+        "type": "kitty-direct",
+        "height": 25,
+        "width": 55,
+        "padding": {
+            "top": 2,          
+            "left": 2,         
+            "right": 5,
+        },
+        "color": {             
+            "1": "black"
+        },
+    },
+    "display": { 
+        "separator": "  ➢  "
+    },
+    
+    "modules": [
+        "break",
+        "break",
+        "break",
+
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m‎‎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀▟ ▛▚▞▜ ▙▄ ▟▛ ▟▛ ▞▚ ▚▘ "
+        },
+        "break",
+/* 
+       {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m                          ╱╱╭╮╱╱╭╮╭━━━╮╱╱╱╱╭╮╱╱╭╮"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m                          ╱╱┃┃╱╱┃┃┃╭━╮┃╱╱╱╱┃╰╮╭╯┃"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m                          ╱╱┃┣╮╭┫┃┃╰━━┳━━┳━┻╮╰╯╭╯"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m                          ╭╮┃┃╰╯┃┃╰━━╮┃━━┫╭╮┣╮╭╯"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m                          ┃╰╯┃┃┃┃╰┫╰━╯┣━━┃╭╮┃┃┃"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m                          ╰━━┻┻┻┻━┻━━━┻━━┻╯╰╯╰╯"
+        },
+*/
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m ╭─────────────╮"
+        },
+        {
+            "type": "host",
+            "key": "\u001b[35m │\u001b[31m   Host     \u001b[35m│",
+
+        },
+        {
+            "type": "os",
+            "key": "\u001b[35m │\u001b[31m   Distro   \u001b[35m│",
+            "format": "{2} 24.10",
+        },
+        {
+            "type": "wm",
+            "key": "\u001b[35m │\u001b[31m   Wn       \u001b[35m│",
+            "format": "{2} - {3}",
+        },
+        {
+            "type": "packages",
+            "key": "\u001b[35m │\u001b[31m   Packages \u001b[35m│",
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m ├ ─ ── ø ── ─ ┤"
+        },
+        {
+            "type": "cpu",
+            "key": "\u001b[35m │\u001b[34m 󰍛  Cpu      \u001b[35m│",
+            "format": "{2} | {1}",
+        },
+        {
+            "type": "gpu",
+            "key": "\u001b[35m │\u001b[34m 󰍛  Gpu      \u001b[35m│",
+            "format": "{1} | {2} - {6}",
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m ├ ─ ── ø ── ─ ┤"
+        },
+        {
+            "type": "disk",
+            "key": "\u001b[35m │\u001b[37m 󰋊  Disk     \u001b[35m│",
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m ├ ─ ── ø ── ─ ┤"
+        },
+        {
+            "type": "memory",
+            "key": "\u001b[35m │\u001b[36m   Memory   \u001b[35m│",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m ├ ─ ── ø ── ─ ┤"
+        },
+        {
+            "type": "uptime",
+            "key": "\u001b[35m │\u001b[32m 󰔚  Uptime   \u001b[35m│",
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m ├ ─ ── ø ── ─ ┤"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m │\u001b[37m   Colors   \u001b[35m│    \u001b[37m ──────────── \u001b[90m⫸  \u001b[31m⫸  \u001b[32m⫸  \u001b[33m⫸  \u001b[34m⫸  \u001b[35m⫸  \u001b[36m⫸  \u001b[37m⫸  ────────────",
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "\u001b[35m ╰─────────────╯"
+        },
+    ]
+}

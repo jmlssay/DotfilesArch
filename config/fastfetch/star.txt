@@ -1,0 +1,19 @@
+[31m                     ..
+                   .oK0l
+                  :0KKKKd.
+                .xK00KKKKd
+               ,Od' .d0000l
+              .c;.  .'''...            ..'.
+ .,:cloddxxxkkkkOOOOkkkkkkkkxxxxxxxxxkkkx:
+ ;kOOOOOOOkxOkc'...',;:::,,,'',;;:cllc:,.
+  .ekkkkd,.lko .......',;:cllc:;,,'''''.
+    .cdo. :xd' cd:. ..';'',,,'',,;;;,'.
+       . .ddl.;doooc'..;oc;'..';::;,'.
+         coo;.oooolllllllcccc:'.  .
+        .ool''lllllccccccc:::::;.
+        ;lll. .':cccc:::::::;;;;'
+        :lcc:'',..';::::;;;;;;;,,.
+        :cccc::::;...';;;;;,,,,,,.
+        ,::::::;;;,'.  ..',,,,'''.
+         ........          ......
+[0m

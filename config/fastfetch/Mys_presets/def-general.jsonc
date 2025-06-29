@@ -1,0 +1,172 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "/home/jmlsa/.config/fastfetch/logo.png",
+        "type": "kitty-direct",
+        "height": 25,
+        "width": 45,
+        "padding": {
+            "top": 3,          
+            "left": 0,         
+            "right": 5,         
+        },
+        "color": {             
+            "1": "white"
+        }    
+    },
+    "display": {
+        "separator": " -> "
+    },
+    
+    "modules": [
+        "break",
+        {
+            "type": "title",
+            "keyWidth": 10,
+			"format": "                       {6}{7}{8}"
+        },
+        {
+            "type": "custom",
+            "format": "╭─────────────────────────────────────────────────────────────╮"
+        },
+        {
+            "type": "os",
+            "key": "  ",
+            "format": "{2} 24.10",
+            "keyColor": "red"
+        },
+        {
+                    "type": "host",
+                    "key": "  ",
+                    "keyColor": "red"
+
+                },
+        {
+            "type": "kernel",
+            "key": "  ",
+            "format": "{1} 6.11.o",
+            "keyColor": "red"
+        },
+        {
+            "type": "shell",
+            "key": " $ ",
+            "format": "{1}",
+            "keyColor": "red"
+        },
+        {
+            "type": "terminal",
+            "key": "  ",
+            "format": "{1}",
+            "keyColor": "red"
+        },
+        {
+            "type": "packages",
+            "key": "  ",
+            "keyColor": "red"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "╰─────────────────────────────────────────────────────────────╯"
+        },
+        {
+            "type": "custom",
+            "format": "╭─────────────────────────────────────────────────────────────╮"
+        },
+        {
+            "type": "wm",
+            "key": "  ",
+            "format": "{2} - {3}",
+            "keyColor": "blue"
+        },
+        {
+            "type": "icons",
+            "key": " 󰀻",
+            "keyColor": "blue"
+        },
+        {
+            "type": "cursor",
+            "key": " ",
+            "keyColor": "blue",
+        },
+        {
+            "type": "terminalfont",
+            "key": " ",
+            "keyColor": "blue",
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "╰─────────────────────────────────────────────────────────────╯"
+        },
+        {
+            "type": "custom",
+            "format": "╭─────────────────────────────────────────────────────────────╮"
+        },
+        {
+            "type": "cpu",
+            "key": "  ",
+            "format": "{2} | {1}",
+            "keyColor": "green"
+        },
+        {
+            "type": "gpu",
+            "key": "  ",
+            "format": "{1} | {2} - {6}",
+            "keyColor": "green"
+        },
+        {
+            "type": "memory",
+            "key": "  ",
+            "keyColor": "green"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "╰─────────────────────────────────────────────────────────────╯"
+        },
+        {
+            "type": "custom",
+            "format": "╭─────────────────────────────────────────────────────────────╮"
+        },
+        {
+            "type": "uptime",
+            "key": " 󰔚 ",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "╰─────────────────────────────────────────────────────────────╯"
+        },
+        {
+            "type": "custom",
+            "format": "╭─────────────────────────────────────────────────────────────╮"
+        },
+        {
+            "type": "sound",
+            "key": "  ",
+            "format": "{2} ({3})",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "player",
+            "key": " 󰥠",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "media",
+            "key": " 󰝚",
+            "keyColor": "magenta"
+        },        {
+            "type": "custom",
+            "key": " ",
+            "format": "╰─────────────────────────────────────────────────────────────╯"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "                \u001b[90m   \u001b[31m   \u001b[32m   \u001b[33m   \u001b[34m   \u001b[35m   \u001b[36m   \u001b[37m "
+        }
+    ]
+}
